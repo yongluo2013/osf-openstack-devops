@@ -8,7 +8,7 @@
 
 	yum -y install foreman-installer 
 
-如果手动配置了本地源,开 foreman-configure-scl-repo 参数为false，默认会用重新安装epel 等相关yum 源。
+如果手动配置了本地源,开 foreman-configure-scl-repo 参数为false，否则默认会用重新安装epel 等相关yum 源。
 
 	foreman-installer --foreman-configure-scl-repo false
 
